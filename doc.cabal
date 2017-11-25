@@ -1,0 +1,129 @@
+name:                doc
+version:             0.1.0.0
+synopsis:            Project for generating local hoogle
+description:         Please see README.md
+homepage:            https://github.com/jchia/doc#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Josh Chia
+maintainer:          joshchia@gmail.com
+copyright:           Copyright (c) 2017 Joshua Chia
+category:            Development
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+library
+  default-language:    Haskell2010
+  hs-source-dirs:      src
+  exposed-modules:     Lib
+  build-depends:       base >= 4.9 && < 5
+                     , accelerate
+                     , accelerate-blas
+                     , accelerate-io
+                     , accelerate-llvm
+                     , accelerate-llvm-native
+                     , accelerate-llvm-ptx
+                     , aeson
+                     , aeson-pretty
+                     , amazonka
+                     , amazonka-core
+                     , amazonka-s3
+                     , array
+                     , async
+                     , attoparsec
+                     , bifunctors
+                     , binary
+                     , binary-conduit
+                     , brick
+                     , bytestring
+                     , bytestring-conversion
+                     , bzlib-conduit
+                     , cassava
+                     , checkers
+                     , classy-prelude
+                     , conduit
+                     , conduit-combinators
+                     , conduit-extra
+                     , containers
+                     , criterion
+                     , cryptonite
+                     , data-binary-ieee754
+                     , data-default
+                     , data-msgpack
+                     , data-ordlist
+                     , Decimal
+                     , direct-sqlite
+                     , directory
+                     , distributed-closure
+                     , enummapset
+                     , either
+                     , errors
+                     , extra
+                     , fgl
+                     , file-embed
+                     , generics-sop
+                     , ghc
+                     , gnuplot
+                     , graphviz
+                     , groom
+                     , hashable
+                     , hedis
+                     , hmatrix
+                     , hmatrix-gsl-stats
+                     , hourglass
+                     , hspec
+                     , ini
+                     , labels
+                     , lens
+                     , lens-aeson
+                     , logging-effect
+                     , lzma-conduit
+                     , megaparsec
+                     , microlens-platform
+                     , MissingH
+                     , monad-loops
+                     , mono-traversable
+                     , mtl
+                     , network
+                     , opaleye
+                     , optparse-applicative
+                     , optparse-generic
+                     , parallel-io
+                     , path
+                     , path-io
+                     , pem
+                     , process
+                     , protolude
+                     , QuickCheck
+                     , random
+                     , raw-strings-qq
+                     , reactive-banana
+                     , resourcet
+                     , safe-exceptions
+                     , scientific
+                     , scotty
+                     , semigroups
+                     , shelly
+                     , sqlite-simple
+                     , statistics
+                     , store
+                     , store-core
+                     , string-conversions
+                     , template-haskell
+                     , temporary
+                     , text
+                     , text-show
+                     , time
+                     , transformers
+                     , tuple
+                     , unix
+                     , unix-bytestring
+                     , unordered-containers
+                     , vector
+                     , vector-algorithms
+                     , vector-sized
+                     , vector-th-unbox
+                     , wreq
+                     , x509
+                     , zip

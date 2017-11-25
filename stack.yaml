@@ -1,0 +1,30 @@
+resolver: nightly-2017-11-27
+
+packages:
+- .
+- location:
+    git: https://github.com/chpatrick/clang-pure
+    commit: 1254adb2b18856fbaba847bbaa24feac4366f512
+  extra-dep: true
+- location:
+    git: https://github.com/AccelerateHS/accelerate.git
+    commit: cffae80c232049ab69d0336f81e3c70add0e1689
+  extra-dep: true
+- location:
+    git: https://github.com/AccelerateHS/accelerate-llvm.git
+    commit: 0c86f27ee1206c03b2be05d4c7d83ec51e0e883e
+  subdirs:
+  - accelerate-llvm
+  - accelerate-llvm-native
+  - accelerate-llvm-ptx
+  extra-dep: true
+- location:
+    git: https://github.com/tmcdonell/accelerate-blas.git
+    commit: f867e8fedf20a0083dc68e3de95c14bd427d2759
+  extra-dep: true
+extra-deps:
+- hsc2hs-0.68.2
+
+flags: {}
+
+extra-package-dbs: []
