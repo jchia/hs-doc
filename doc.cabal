@@ -41,6 +41,7 @@ library
                      , bzlib-conduit
                      , cassava
                      , checkers
+                     , choice
                      , classy-prelude
                      , conduit
                      , conduit-combinators
