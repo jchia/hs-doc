@@ -1,0 +1,7 @@
+resolver: nightly-2017-12-08
+name: resolver
+
+packages:
+- hsc2hs-0.68.2
+- git: https://github.com/chpatrick/clang-pure
+  commit: 1254adb2b18856fbaba847bbaa24feac4366f512
