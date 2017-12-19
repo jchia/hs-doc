@@ -106,6 +106,8 @@ library
                      , scotty
                      , semigroups
                      , shelly
+                     , singletons
+                     , split
                      , sqlite-simple
                      , statistics
                      , store
