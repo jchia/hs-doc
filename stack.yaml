@@ -3,6 +3,9 @@ resolver: resolver.yaml
 packages:
 - .
 
+extra-deps:
+- pcap-0.4.5.2
+
 flags: {}
 
 extra-package-dbs: []
