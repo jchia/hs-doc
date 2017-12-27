@@ -64,6 +64,7 @@ dependencies:
 - extra
 - fgl
 - file-embed
+- generic-lens
 - generics-sop
 - ghc
 - gnuplot
