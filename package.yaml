@@ -89,6 +89,7 @@ dependencies:
 - mono-traversable
 - mtl
 - network
+- network-house
 - opaleye
 - optparse-applicative
 - optparse-generic
