@@ -124,6 +124,7 @@ dependencies:
 - time
 - transformers
 - tuple
+- tuple-th
 - unix
 - unix-bytestring
 - unordered-containers
