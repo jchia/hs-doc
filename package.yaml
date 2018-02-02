@@ -34,9 +34,11 @@ dependencies:
 - async
 - attoparsec
 - bifunctors
+- bimap
 - binary
 - binary-conduit
 - brick
+- bv
 - bytestring
 - bytestring-conversion
 - bzlib-conduit
@@ -48,6 +50,7 @@ dependencies:
 - conduit-combinators
 - conduit-extra
 - containers
+- contravariant
 - criterion
 - cryptonite
 - data-binary-ieee754
@@ -55,6 +58,7 @@ dependencies:
 - data-msgpack
 - data-ordlist
 - Decimal
+- dhall
 - direct-sqlite
 - directory
 - distributed-closure
@@ -132,6 +136,7 @@ dependencies:
 - vector-algorithms
 - vector-sized
 - vector-th-unbox
+- vinyl
 - wreq
 - x509
 - zip
