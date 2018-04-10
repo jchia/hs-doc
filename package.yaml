@@ -19,12 +19,6 @@ library:
 
 dependencies:
 - base >= 4.7 && < 5
-- accelerate
-- accelerate-blas
-- accelerate-io
-- accelerate-llvm
-- accelerate-llvm-native
-- accelerate-llvm-ptx
 - aeson
 - aeson-pretty
 - amazonka
@@ -37,6 +31,7 @@ dependencies:
 - bimap
 - binary
 - binary-conduit
+- bookkeeper
 - brick
 - bv
 - bytestring
@@ -51,6 +46,7 @@ dependencies:
 - conduit-extra
 - containers
 - contravariant
+- cpython
 - criterion
 - cryptonite
 - data-binary-ieee754
@@ -76,19 +72,24 @@ dependencies:
 - groom
 - hashable
 - hedis
+- HList
 - hmatrix
 - hmatrix-gsl-stats
 - hourglass
 - hspec
 - ini
+- inline-c
+- inline-c-cpp
 - labels
 - lens
 - lens-aeson
 - logging-effect
 - lzma-conduit
+- math-functions
 - megaparsec
 - microlens-platform
 - MissingH
+- mmap
 - monad-loops
 - mono-traversable
 - mtl
@@ -129,6 +130,7 @@ dependencies:
 - transformers
 - tuple
 - tuple-th
+- type-level-sets
 - unix
 - unix-bytestring
 - unordered-containers
