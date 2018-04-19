@@ -49,6 +49,7 @@ dependencies:
 - cpython
 - criterion
 - cryptonite
+- csp
 - data-binary-ieee754
 - data-default
 - data-msgpack
@@ -70,6 +71,7 @@ dependencies:
 - gnuplot
 - graphviz
 - groom
+- gtk3
 - hashable
 - hedis
 - HList
@@ -126,6 +128,7 @@ dependencies:
 - temporary
 - text
 - text-show
+- th-printf
 - time
 - transformers
 - tuple
