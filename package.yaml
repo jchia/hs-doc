@@ -87,6 +87,9 @@ dependencies:
 - lens-aeson
 - logging-effect
 - lzma-conduit
+- machines
+- machines-binary
+- machines-io
 - math-functions
 - megaparsec
 - microlens-platform
@@ -142,6 +145,7 @@ dependencies:
 - vector-sized
 - vector-th-unbox
 - vinyl
+- websockets
 - wreq
 - x509
 - zip
