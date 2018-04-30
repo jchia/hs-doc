@@ -38,6 +38,7 @@ dependencies:
 - bytestring-conversion
 - bzlib-conduit
 - cassava
+- cassava-conduit
 - checkers
 - choice
 - classy-prelude
@@ -116,6 +117,7 @@ dependencies:
 - reactive-banana
 - resourcet
 - safe-exceptions
+- sbv
 - scientific
 - scotty
 - semigroups
