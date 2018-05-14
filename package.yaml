@@ -47,6 +47,7 @@ dependencies:
 - conduit-extra
 - containers
 - contravariant
+- convertible
 - cpython
 - criterion
 - cryptonite
@@ -63,9 +64,11 @@ dependencies:
 - enummapset
 - either
 - errors
+- extensible
 - extra
 - fgl
 - file-embed
+- formatting
 - generic-lens
 - generics-sop
 - ghc
@@ -83,10 +86,13 @@ dependencies:
 - ini
 - inline-c
 - inline-c-cpp
+- interpolate
 - labels
 - lens
 - lens-aeson
 - logging-effect
+- llvm-hs
+- llvm-hs-pure
 - lzma-conduit
 - machines
 - machines-binary
@@ -134,6 +140,7 @@ dependencies:
 - text
 - text-show
 - th-printf
+- these
 - time
 - transformers
 - tuple
