@@ -92,6 +92,7 @@ dependencies:
 - inline-c
 - inline-c-cpp
 - interpolate
+- io-streams
 - labels
 - lens
 - lens-aeson
@@ -110,6 +111,8 @@ dependencies:
 - monad-loops
 - mono-traversable
 - mtl
+- mustache
+- mysql-haskell
 - network
 - network-house
 - opaleye
