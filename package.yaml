@@ -20,10 +20,10 @@ library:
 dependencies:
 - base >= 4.7 && < 5
 - accelerate
-- accelerate-io
-- accelerate-llvm
-- accelerate-llvm-native
-- accelerate-llvm-ptx
+#- accelerate-io
+#- accelerate-llvm
+#- accelerate-llvm-native
+#- accelerate-llvm-ptx
 - aeson
 - aeson-pretty
 - amazonka
@@ -36,7 +36,6 @@ dependencies:
 - bimap
 - binary
 - binary-conduit
-- bookkeeper
 - brick
 - bv
 - bytestring
@@ -97,12 +96,10 @@ dependencies:
 - lens
 - lens-aeson
 - logging-effect
-- llvm-hs
-- llvm-hs-pure
+#- llvm-hs
+#- llvm-hs-pure
 - lzma-conduit
 - machines
-- machines-binary
-- machines-io
 - math-functions
 - megaparsec
 - microlens-platform
@@ -123,6 +120,7 @@ dependencies:
 - path-io
 - pcap
 - pem
+- polysemy
 - process
 - protolude
 - QuickCheck
@@ -142,6 +140,10 @@ dependencies:
 - statistics
 - store
 - store-core
+- streaming
+- streaming-bytestring
+- streaming-commons
+- streaming-conduit
 - string-conversions
 - template-haskell
 - temporary
@@ -154,6 +156,7 @@ dependencies:
 - tuple
 - tuple-th
 - type-level-sets
+- uniplate
 - unix
 - unix-bytestring
 - unordered-containers
@@ -165,4 +168,7 @@ dependencies:
 - websockets
 - wreq
 - x509
+- xmonad
+- xmonad-contrib
+- xmonad-extras
 - zip

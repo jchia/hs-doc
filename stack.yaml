@@ -1,8 +1,10 @@
-resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/resolver-20180608.yaml
+resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/resolver-20200425.yaml
 
 packages:
 - .
 
 flags: {}
+
+extra-deps: []
 
 extra-package-dbs: []
