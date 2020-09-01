@@ -20,10 +20,7 @@ library:
 dependencies:
 - base
 - accelerate
-#- accelerate-io
-#- accelerate-llvm
-#- accelerate-llvm-native
-#- accelerate-llvm-ptx
+- accelerate-llvm
 - aeson
 - aeson-pretty
 - amazonka
@@ -103,7 +100,6 @@ dependencies:
 - interpolate
 - io-streams
 - JuicyPixels
-- labels
 - lens
 - lens-aeson
 - llvm-hs
