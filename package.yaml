@@ -81,12 +81,13 @@ dependencies:
 - generic-lens
 - generics-sop
 - ghc
+- gi-gtk
+- gi-gtk-hs
 - gloss
 - gloss-rendering
 - gnuplot
 - graphviz
 - groom
-- gtk3
 - hashable
 - hedis
 - HList
@@ -163,8 +164,8 @@ dependencies:
 - streaming
 - streaming-bytestring
 - streaming-commons
-- streaming-conduit
 - string-conversions
+- string-interpolate
 - template-haskell
 - temporary
 - text
