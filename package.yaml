@@ -54,7 +54,6 @@ dependencies:
 - containers
 - contravariant
 - convertible
-- cpython
 - criterion
 - cryptonite
 - csp
@@ -80,6 +79,7 @@ dependencies:
 - formatting
 - generic-lens
 - generics-sop
+- genvalidity
 - ghc
 - gi-gtk
 - gi-gtk-hs
