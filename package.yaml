@@ -78,6 +78,7 @@ dependencies:
 - foldl
 - FontyFruity
 - formatting
+- freer-simple
 - generic-lens
 - generics-sop
 - genvalidity
