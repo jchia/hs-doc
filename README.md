@@ -1,1 +1,0 @@
-# A Haskell Stack project for generating local hoogle (and haddock).

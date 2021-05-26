@@ -1,0 +1,21 @@
+# hs-doc
+Project for building local haddock and hoogle for some packages
+
+On Ubuntu 20.04, some development packages need to be installed first (as root):
+[source, bash]
+----
+$ apt install libasound2-dev libatk1.0-dev libblas-dev libbz2-dev libcairo2-dev libcrypto++-dev libgdk-pixbuf2.0-dev libgirepository1.0-dev libglib2.0-dev libglib2.0-dev libglu1-mesa-dev libgmp-dev libgsl-dev libgtk-3-dev libharfbuzz-dev liblapack-dev liblzma-dev libpango1.0-dev libpcap-dev libpq-dev libsdl2-dev libsdl2-gfx-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libsodium-dev libtinfo-dev libxft-dev libxpm-dev libxrandr-dev libxss-dev llvm-9-dev
+----
+
+Then run these commands to build the haddock and hoogle db:
+[source, bash]
+----
+$ stack haddock
+$ stack hoogle generate -- --local
+----
+
+To run the local hoogle on port 8000:
+[source, bash]
+----
+$ stack hoogle server -- --local --port 8000
+----
