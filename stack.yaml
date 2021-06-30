@@ -1,4 +1,4 @@
-resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/resolver-20210617.yaml
+resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/resolver-20210630.yaml
 
 packages:
 - .

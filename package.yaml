@@ -43,6 +43,7 @@ dependencies:
 - bzlib-conduit
 - cassava
 - cassava-conduit
+- cereal
 - checkers
 - choice
 - clash-lib
@@ -91,6 +92,7 @@ dependencies:
 - graphviz
 - groom
 - hashable
+- haxl
 - hedis
 - HList
 - hmatrix
