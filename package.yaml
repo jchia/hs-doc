@@ -19,8 +19,6 @@ library:
 
 dependencies:
 - base
-- accelerate
-- accelerate-llvm
 - aeson
 - aeson-pretty
 - amazonka
@@ -30,6 +28,7 @@ dependencies:
 - async
 - async-pool
 - attoparsec
+- avro
 - bifunctors
 - bimap
 - binary
@@ -42,12 +41,12 @@ dependencies:
 - bz2
 - bzlib-conduit
 - cassava
-- cassava-conduit
+# - cassava-conduit
 - cereal
 - checkers
 - choice
-- clash-lib
-- clash-prelude
+# - clash-lib
+# - clash-prelude
 - classy-prelude
 - conduit
 - conduit-combinators
@@ -80,7 +79,10 @@ dependencies:
 - FontyFruity
 - formatting
 - freer-simple
+- generic-functor
 - generic-lens
+- generic-monoid
+- generic-optics
 - generics-sop
 - genvalidity
 - ghc
@@ -89,12 +91,14 @@ dependencies:
 - gloss
 - gloss-rendering
 - gnuplot
-- graphviz
+# - graphviz
 - groom
 - hashable
-- haxl
+- hasql
+- hasql-pool
+- hasql-transaction
+# - haxl
 - hedis
-- HList
 - hmatrix
 - hmatrix-gsl-stats
 - hourglass
@@ -107,8 +111,6 @@ dependencies:
 - JuicyPixels
 - lens
 - lens-aeson
-- llvm-hs
-- llvm-hs-pure
 - lzma
 - lzma-conduit
 - machines
@@ -121,7 +123,8 @@ dependencies:
 - mono-traversable
 - mtl
 - mustache
-- mysql-haskell
+- mwc-random
+- mysql-simple
 - network
 - network-house
 - opaleye
@@ -133,11 +136,12 @@ dependencies:
 - pcap
 - pem
 - polysemy
+- pontarius-xmpp
 - pretty-show
 - process
 - proto-lens
 - proto-lens-protobuf-types
-- protolude
+# - protolude
 - QuickCheck
 - random
 - random-fu
@@ -150,14 +154,17 @@ dependencies:
 - scientific
 - scotty
 - sdl2
-- sdl2-gfx
-- sdl2-image
-- sdl2-mixer
+# - sdl2-gfx
+# - sdl2-image
+# - sdl2-mixer
 - sdl2-ttf
 - selda
-- selda-postgresql
+# - selda-postgresql
 - selda-sqlite
 - semigroups
+- servant
+- servant-client
+- servant-client-core
 - shelly
 - singletons
 - split
@@ -170,6 +177,7 @@ dependencies:
 - streaming-commons
 - string-conversions
 - string-interpolate
+# - taffybar
 - template-haskell
 - temporary
 - text
@@ -191,6 +199,7 @@ dependencies:
 - vinyl
 - websockets
 - wreq
+- wuss
 - x509
 - xmonad
 - xmonad-contrib
