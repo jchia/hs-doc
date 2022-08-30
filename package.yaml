@@ -29,6 +29,9 @@ dependencies:
 - async-pool
 - attoparsec
 - avro
+- beam-core
+- beam-postgres
+- beam-sqlite
 - bifunctors
 - bimap
 - binary
@@ -41,12 +44,9 @@ dependencies:
 - bz2
 - bzlib-conduit
 - cassava
-# - cassava-conduit
 - cereal
 - checkers
 - choice
-# - clash-lib
-# - clash-prelude
 - classy-prelude
 - conduit
 - conduit-combinators
@@ -91,13 +91,12 @@ dependencies:
 - gloss
 - gloss-rendering
 - gnuplot
-# - graphviz
+- graphviz
 - groom
 - hashable
 - hasql
 - hasql-pool
 - hasql-transaction
-# - haxl
 - hedis
 - hmatrix
 - hmatrix-gsl-stats
@@ -116,11 +115,14 @@ dependencies:
 - machines
 - math-functions
 - megaparsec
+- mersenne-random
+- mersenne-random-pure64
 - microlens-platform
 - MissingH
 - mmap
 - monad-loops
 - mono-traversable
+- monomer
 - mtl
 - mustache
 - mwc-random
@@ -141,7 +143,6 @@ dependencies:
 - process
 - proto-lens
 - proto-lens-protobuf-types
-# - protolude
 - QuickCheck
 - random
 - random-fu
@@ -154,13 +155,15 @@ dependencies:
 - scientific
 - scotty
 - sdl2
-# - sdl2-gfx
-# - sdl2-image
-# - sdl2-mixer
+- sdl2-gfx
+- sdl2-image
+- sdl2-mixer
 - sdl2-ttf
 - selda
 # - selda-postgresql
 - selda-sqlite
+- selections
+- selective
 - semigroups
 - servant
 - servant-client
@@ -177,7 +180,7 @@ dependencies:
 - streaming-commons
 - string-conversions
 - string-interpolate
-# - taffybar
+- tasty
 - template-haskell
 - temporary
 - text
@@ -192,12 +195,14 @@ dependencies:
 - unix
 - unix-bytestring
 - unordered-containers
+- validity
 - vector
 - vector-algorithms
 - vector-sized
 - vector-th-unbox
 - vinyl
 - websockets
+- witch
 - wreq
 - wuss
 - x509
