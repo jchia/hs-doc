@@ -29,6 +29,7 @@ dependencies:
 - async-pool
 - attoparsec
 - avro
+- barbies
 - beam-core
 - beam-postgres
 - beam-sqlite
@@ -75,6 +76,7 @@ dependencies:
 - extra
 - fgl
 - file-embed
+- flat
 - foldl
 - FontyFruity
 - formatting
@@ -97,6 +99,7 @@ dependencies:
 - hasql
 - hasql-pool
 - hasql-transaction
+- hedgehog
 - hedis
 - hmatrix
 - hmatrix-gsl-stats
@@ -139,8 +142,12 @@ dependencies:
 - pem
 - polysemy
 - pontarius-xmpp
+- postgresql-simple
 - pretty-show
 - process
+- prometheus
+- prometheus-client
+- prometheus-wai-middleware
 - proto-lens
 - proto-lens-protobuf-types
 - QuickCheck
@@ -148,6 +155,7 @@ dependencies:
 - random-fu
 - Rasterific
 - raw-strings-qq
+- reactive-banana
 - resourcet
 - rio
 - safe-exceptions
@@ -180,10 +188,12 @@ dependencies:
 - streaming-commons
 - string-conversions
 - string-interpolate
+- taffybar
 - tasty
 - template-haskell
 - temporary
 - text
+- text-display
 - text-show
 - th-printf
 - these
@@ -209,4 +219,5 @@ dependencies:
 - xmonad
 - xmonad-contrib
 - xmonad-extras
+- Yampa
 - zip
