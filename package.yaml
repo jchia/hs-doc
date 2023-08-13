@@ -33,6 +33,7 @@ dependencies:
 - beam-core
 - beam-postgres
 - beam-sqlite
+- bech32
 - bifunctors
 - bimap
 - binary
