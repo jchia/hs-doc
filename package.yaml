@@ -30,9 +30,6 @@ dependencies:
 - attoparsec
 - avro
 - barbies
-- beam-core
-- beam-postgres
-- beam-sqlite
 - bech32
 - bifunctors
 - bimap
@@ -40,19 +37,23 @@ dependencies:
 - binary-conduit
 - bitvec
 - brick
+- broadcast-chan
 - bv
 - bytestring
 - bytestring-conversion
 - bz2
 - bzlib-conduit
+- can-i-haz
 - cassava
 - cereal
 - checkers
 - choice
 - classy-prelude
+- clock
 - conduit
-- conduit-combinators
+- conduit-algorithms
 - conduit-extra
+- config-ini
 - containers
 - contravariant
 - convertible
@@ -68,7 +69,6 @@ dependencies:
 - direct-sqlite
 - directory
 - distributed-closure
-- dunai
 - enummapset
 - either
 - elerea
@@ -81,7 +81,6 @@ dependencies:
 - foldl
 - FontyFruity
 - formatting
-- freer-simple
 - generic-functor
 - generic-lens
 - generic-monoid
@@ -100,6 +99,7 @@ dependencies:
 - hasql
 - hasql-pool
 - hasql-transaction
+- hdf5
 - hedgehog
 - hedis
 - hmatrix
@@ -115,7 +115,6 @@ dependencies:
 - lens
 - lens-aeson
 - lzma
-- lzma-conduit
 - machines
 - math-functions
 - megaparsec
@@ -130,10 +129,13 @@ dependencies:
 - mtl
 - mustache
 - mwc-random
+- mysql-haskell
 - mysql-simple
 - network
 - network-house
 - opaleye
+- optics
+- optics-core
 - optparse-applicative
 - optparse-generic
 - parallel-io
@@ -148,7 +150,6 @@ dependencies:
 - process
 - prometheus
 - prometheus-client
-- prometheus-wai-middleware
 - proto-lens
 - proto-lens-protobuf-types
 - QuickCheck
@@ -168,9 +169,6 @@ dependencies:
 - sdl2-image
 - sdl2-mixer
 - sdl2-ttf
-- selda
-# - selda-postgresql
-- selda-sqlite
 - selections
 - selective
 - semigroups
@@ -187,10 +185,16 @@ dependencies:
 - streaming
 - streaming-bytestring
 - streaming-commons
+- streaming-conduit
+- streaming-lzma
 - string-conversions
 - string-interpolate
-- taffybar
 - tasty
+- tasty-hedgehog
+- tasty-hspec
+- tasty-hunit
+- tasty-quickcheck
+- tasty-smallcheck
 - template-haskell
 - temporary
 - text
@@ -218,7 +222,5 @@ dependencies:
 - wuss
 - x509
 - xmonad
-- xmonad-contrib
-- xmonad-extras
 - Yampa
 - zip
