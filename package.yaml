@@ -62,6 +62,7 @@ dependencies:
 - csp
 - data-binary-ieee754
 - data-default
+- data-interval
 - data-msgpack
 - data-ordlist
 - Decimal
@@ -72,6 +73,7 @@ dependencies:
 - enummapset
 - either
 - elerea
+- elf
 - errors
 - extensible
 - extra
@@ -222,5 +224,6 @@ dependencies:
 - wuss
 - x509
 - xmonad
+- xmonad-contrib
 - Yampa
 - zip
