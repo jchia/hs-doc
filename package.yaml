@@ -36,6 +36,7 @@ dependencies:
 - binary
 - binary-conduit
 - bitvec
+- bluefin
 - brick
 - broadcast-chan
 - bv
@@ -49,6 +50,7 @@ dependencies:
 - checkers
 - choice
 - classy-prelude
+- cleff
 - clock
 - conduit
 - conduit-algorithms
@@ -70,6 +72,7 @@ dependencies:
 - direct-sqlite
 - directory
 - distributed-closure
+- effectful
 - enummapset
 - either
 - elerea
