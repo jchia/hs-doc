@@ -1,7 +1,12 @@
-resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/22-20241216.yaml
+resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/23-20241221.yaml
 
 packages:
 - .
+
+ghc-options:
+  amazonka-s3: -XDuplicateRecordFields
+  amazonka-sso: -XDuplicateRecordFields
+  amazonka-sts: -XDuplicateRecordFields
 
 flags: {}
 
