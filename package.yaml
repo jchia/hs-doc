@@ -84,6 +84,7 @@ dependencies:
 - foldl
 - FontyFruity
 - formatting
+- fused-effects
 - generic-functor
 - generic-lens
 - generic-monoid

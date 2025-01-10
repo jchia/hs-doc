@@ -21,3 +21,9 @@ $ stack hoogle server -- --local --port 8000
 There is an issue that may cause hoogle to miss documentation for built-in packages like `base` and `binary`.
 One workaround is to hack the associated `.conf` files as described in
 [this](https://github.com/ndmitchell/hoogle/issues/420#issuecomment-1911916738) issue comment.
+
+With GHC 9.8, various amazonka have trouble being processed by haddock. The workaround is to do this before
+the main haddock run:
+```bash
+$ stack haddock "--optghc -XDuplicateRecordFields" amazonka-s3 amazonka-sso amazonka-sts
+```
