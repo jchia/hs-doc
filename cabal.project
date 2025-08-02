@@ -1,0 +1,57 @@
+packages: .
+
+source-repository-package
+    type: git
+    location: https://github.com/jchia/streaming-lzma.git
+    tag: f33515b677b0b7b13b7be6cd670aa669a5fd3bf7
+
+source-repository-package
+    type: git
+    location: https://github.com/taffybar/taffybar.git
+    tag: f6110354b8c98361c99fb44ac3e007a4c9f3e44b
+
+source-repository-package
+    type: git
+    location: https://github.com/tusharad/langchain-hs.git
+    tag: ccf3caf3eff61b88e6e2e2e1390d6acac1ae431c
+
+source-repository-package
+    type: git
+    location: https://github.com/jchia/mcp.git
+    tag: 755b5c89f6b73984687442507503a89d562744a0
+
+source-repository-package
+    type: git
+    location: https://github.com/tusharad/ollama-haskell.git
+    tag: c46f7e62e02f4750447346f6ae21e23b16b125ae
+
+source-repository-package
+    type: git
+    location: https://github.com/serokell/universum.git
+    tag: 23a3456bfa895c9094e0b53512a8ed144bd94288
+
+package *
+    documentation: true
+    haddock-options: --hoogle
+
+package amazonka-s3
+  ghc-options: -XDuplicateRecordFields
+  haddock-options: --optghc=-XDuplicateRecordFields
+
+package amazonka-sso
+  ghc-options: -XDuplicateRecordFields
+  haddock-options: --optghc=-XDuplicateRecordFields
+
+package amazonka-sts
+  ghc-options: -XDuplicateRecordFields
+  haddock-options: --optghc=-XDuplicateRecordFields
+
+allow-newer:
+  amazonka:base,
+  amazonka-core:base,
+  amazonka-core:containers,
+  amazonka-s3:base,
+  amazonka-sts:base,
+  amazonka-sso:base,
+  nanovg:containers,
+  universum:text

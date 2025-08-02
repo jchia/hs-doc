@@ -31,3 +31,18 @@ $ stack haddock --haddock-arguments=--optghc=-XDuplicateRecordFields
 This is a crude workaround as the --optghc=-XDuplicateRecordFields gets applied to non-amazonka packages,
 which do not need the -XDuplicateRecordFields. Apparently, stack, unlike cabal, does not allow per-package
 control of haddock options.
+
+
+## Alternative cabal-based setup with cabal-hoogle.
+
+To generate Haddock documentation and Hoogle index:
+```bash
+$ cabal-hoogle generate
+```
+
+To serve Hoogle index:
+```bash
+$ cabal-hoogle run -- server --local --port 8000
+```
+
+This setup has a fine-grain per-package approach to passing --optghc=-XDuplicateRecordFields to Haddock.
