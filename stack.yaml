@@ -1,4 +1,4 @@
-resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/23-20250108.yaml
+resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/24-20250729.yaml
 
 packages:
 - .
@@ -13,3 +13,11 @@ flags: {}
 extra-deps: []
 
 extra-package-dbs: []
+
+allow-newer: true
+
+allow-newer-deps:
+- amazonka-core
+- hdf5
+- nanovg
+- universum

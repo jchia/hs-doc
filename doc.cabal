@@ -1,0 +1,233 @@
+cabal-version: 2.4
+
+name:           doc
+version:        0.1.0.0
+synopsis:       Project for generating local haddock & hoogle
+description:    Please see the README
+category:       Development
+author:         Josh Chia
+maintainer:     joshchia@gmail.com
+copyright:      Copyright (c) 2025 Joshua Chia
+license:        BSD-3-Clause
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_doc
+  hs-source-dirs:
+      src
+  build-depends:
+      aeson
+    , aeson-pretty
+    , amazonka
+    , amazonka-core
+    , amazonka-s3
+    , array
+    , async
+    , async-pool
+    , attoparsec
+    , avro
+    , barbies
+    , base
+    , bech32
+    , bifunctors
+    , bimap
+    , binary
+    , binary-conduit
+    , bitvec
+    , bluefin
+    , brick
+    , bv
+    , bytestring
+    , bytestring-conversion
+    , bz2
+    , bzlib-conduit
+    , can-i-haz
+    , cassava
+    , cereal
+    , checkers
+    , choice
+    , classy-prelude
+    , clock
+    , conduit
+    , conduit-algorithms
+    , conduit-extra
+    , config-ini
+    , containers
+    , contravariant
+    , convertible
+    , criterion
+    , cryptonite
+    , csp
+    , data-binary-ieee754
+    , data-default
+    , data-interval
+    , data-msgpack
+    , data-ordlist
+    , Decimal
+    , dhall
+    , directory
+    , direct-sqlite
+    , distributed-closure
+    , effectful
+    , either
+    , elerea
+    , elf
+    , enummapset
+    , errors
+    , extra
+    , fgl
+    , file-embed
+    , flat
+    , foldl
+    , FontyFruity
+    , formatting
+    , fused-effects
+    , generic-functor
+    , generic-lens
+    , generic-monoid
+    , generic-optics
+    , generics-sop
+    , genvalidity
+    , ghc
+    , gloss
+    , gloss-rendering
+    , gnuplot
+    , graphviz
+    , groom
+    , hashable
+    , hasql
+    , hasql-pool
+    , hasql-transaction
+    , hdf5
+    , hedgehog
+    , hedis
+    , hmatrix
+    , hmatrix-gsl-stats
+    , hourglass
+    , hspec
+    , ini
+    , inline-c
+    , inline-c-cpp
+    , interpolate
+    , io-streams
+    , JuicyPixels
+    , langchain-hs
+    , lens
+    , lens-aeson
+    , lzma
+    , machines
+    , math-functions
+    , mcp
+    , megaparsec
+    , mersenne-random
+    , mersenne-random-pure64
+    , microlens-platform
+    , MissingH
+    , mmap
+    , monad-loops
+    , monomer
+    , mono-traversable
+    , mtl
+    , mustache
+    , mwc-random
+    , mysql-simple
+    , network
+    , network-house
+    , opaleye
+    , optics
+    , optics-core
+    , optparse-applicative
+    , optparse-generic
+    , parallel-io
+    , path
+    , path-io
+    , pcap
+    , pem
+    , polysemy
+    , postgresql-simple
+    , pretty-show
+    , process
+    , prometheus
+    , prometheus-client
+    , proto-lens
+    , proto-lens-protobuf-types
+    , QuickCheck
+    , random
+    , random-fu
+    , Rasterific
+    , raw-strings-qq
+    , reactive-banana
+    , resourcet
+    , rio
+    , safe-exceptions
+    , sbv
+    , scientific
+    , scotty
+    , sdl2
+    , sdl2-gfx
+    , sdl2-image
+    , sdl2-mixer
+    , sdl2-ttf
+    , selections
+    , selective
+    , semigroups
+    , servant
+    , servant-client
+    , servant-client-core
+    , shelly
+    , singletons
+    , split
+    , sqlite-simple
+    , statistics
+    , store
+    , store-core
+    , streaming
+    , streaming-bytestring
+    , streaming-commons
+    , streaming-conduit
+    , streaming-lzma
+    , string-conversions
+    , string-interpolate
+    , tasty
+    , tasty-hedgehog
+    , tasty-hspec
+    , tasty-hunit
+    , tasty-quickcheck
+    , tasty-smallcheck
+    , template-haskell
+    , temporary
+    , text
+    , text-show
+    , these
+    , th-printf
+    , time
+    , transformers
+    , tuple
+    , tuple-th
+    , uniplate
+    , universum
+    , unix
+    , unix-bytestring
+    , unordered-containers
+    , validity
+    , vector
+    , vector-algorithms
+    , vector-sized
+    , vector-th-unbox
+    , vinyl
+    , websockets
+    , witch
+    , wreq
+    , wuss
+    , x509
+    , xmonad
+    , xmonad-contrib
+    , Yampa
+    , zip
+  default-language: Haskell2010
