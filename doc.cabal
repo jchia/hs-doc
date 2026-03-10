@@ -154,7 +154,6 @@ library
     , pretty-show
     , process
     , prometheus
-    , prometheus-client
     , proto-lens
     , proto-lens-protobuf-types
     , QuickCheck
@@ -180,6 +179,7 @@ library
     , servant
     , servant-client
     , servant-client-core
+    , shake
     , shelly
     , singletons
     , split
@@ -194,6 +194,7 @@ library
     , streaming-lzma
     , string-conversions
     , string-interpolate
+    , taffybar
     , tasty
     , tasty-hedgehog
     , tasty-hspec

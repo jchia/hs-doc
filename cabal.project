@@ -1,4 +1,5 @@
 packages: .
+with-compiler: ghc-9.10.3
 
 source-repository-package
     type: git
@@ -8,27 +9,17 @@ source-repository-package
 source-repository-package
     type: git
     location: https://github.com/taffybar/taffybar.git
-    tag: f6110354b8c98361c99fb44ac3e007a4c9f3e44b
-
-source-repository-package
-    type: git
-    location: https://github.com/tusharad/langchain-hs.git
-    tag: ccf3caf3eff61b88e6e2e2e1390d6acac1ae431c
-
-source-repository-package
-    type: git
-    location: https://github.com/jchia/mcp.git
-    tag: 755b5c89f6b73984687442507503a89d562744a0
+    tag: 534987ef269a0220aae2da3b4a56d76a587f98b3
 
 source-repository-package
     type: git
     location: https://github.com/tusharad/ollama-haskell.git
-    tag: c46f7e62e02f4750447346f6ae21e23b16b125ae
+    tag: 33807a3a5a507e99d92b26e245c0aed582fde581
 
 source-repository-package
     type: git
     location: https://github.com/serokell/universum.git
-    tag: 23a3456bfa895c9094e0b53512a8ed144bd94288
+    tag: faacef14aee313ec6ec69bc813f12934f1c04840
 
 package *
     documentation: true
@@ -45,6 +36,9 @@ package amazonka-sso
 package amazonka-sts
   ghc-options: -XDuplicateRecordFields
   haddock-options: --optghc=-XDuplicateRecordFields
+
+constraints:
+  openai < 2.5
 
 allow-newer:
   amazonka:base,
