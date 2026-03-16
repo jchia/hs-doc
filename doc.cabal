@@ -45,7 +45,7 @@ library
     , bv
     , bytestring
     , bytestring-conversion
-    , bz2
+    , bzlib
     , bzlib-conduit
     , can-i-haz
     , cassava
@@ -104,6 +104,7 @@ library
     , hasql
     , hasql-pool
     , hasql-transaction
+    , hatter
     , hdf5
     , hedgehog
     , hedis
@@ -111,6 +112,7 @@ library
     , hmatrix-gsl-stats
     , hourglass
     , hspec
+    , hspec-golden
     , ini
     , inline-c
     , inline-c-cpp
@@ -123,7 +125,7 @@ library
     , lzma
     , machines
     , math-functions
-    , mcp
+    , mcp-server
     , megaparsec
     , mersenne-random
     , mersenne-random-pure64
@@ -136,7 +138,6 @@ library
     , mtl
     , mustache
     , mwc-random
-    , mysql-simple
     , network
     , network-house
     , opaleye
@@ -155,7 +156,12 @@ library
     , process
     , prometheus
     , proto-lens
+    , proto-lens-arbitrary
+    , proto-lens-optparse
     , proto-lens-protobuf-types
+    , proto-lens-protoc
+    , proto-lens-runtime
+    , proto-lens-setup
     , QuickCheck
     , random
     , random-fu
@@ -188,10 +194,10 @@ library
     , store
     , store-core
     , streaming
+    , streaming-binary
     , streaming-bytestring
     , streaming-commons
     , streaming-conduit
-    , streaming-lzma
     , string-conversions
     , string-interpolate
     , taffybar
@@ -231,4 +237,4 @@ library
     , xmonad-contrib
     , Yampa
     , zip
-  default-language: Haskell2010
+  default-language: GHC2024

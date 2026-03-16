@@ -1,15 +1,5 @@
 packages: .
-with-compiler: ghc-9.10.3
-
-source-repository-package
-    type: git
-    location: https://github.com/jchia/streaming-lzma.git
-    tag: f33515b677b0b7b13b7be6cd670aa669a5fd3bf7
-
-source-repository-package
-    type: git
-    location: https://github.com/taffybar/taffybar.git
-    tag: 534987ef269a0220aae2da3b4a56d76a587f98b3
+with-compiler: ghc-9.12.4
 
 source-repository-package
     type: git
@@ -48,4 +38,3 @@ allow-newer:
   amazonka-sts:base,
   amazonka-sso:base,
   nanovg:containers,
-  universum:text
